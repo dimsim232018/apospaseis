@@ -142,7 +142,7 @@
     $patrwnymo = $row['patrwnymo'];
     $klados = $row['klados'];
     $id = $row['id'];
-    $am = $_SESSION['user'];
+    $am = $userid;
     $organ = $row['org'];
     $organ = getSchooledc($organ, $mysqlconnection);
     $eth = $row['eth'];
